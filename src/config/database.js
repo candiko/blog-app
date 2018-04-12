@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb://localhost/restful_blog_app", {
+mongoose.connect(process.env.DB_LOCAL, {
   useMongoClient: true
 });
 
