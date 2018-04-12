@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-mongoose.connect(process.env.DB_LOCAL, {
+mongoose.connect(process.env.DB_ONLINE, {
   useMongoClient: true
 });
 
